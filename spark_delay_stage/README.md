@@ -26,5 +26,5 @@ Furthermore, we formulate the execution time as the sum of the execution time of
 <div align=center><img width="150" height="50" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq3.png"/></div>
 
 where xsub<k> denotes the delayed scheduling (i.e., submission) time for a stage k, as opposed to the immediate submission with the stock stage scheduling in Spark. We proceed to define our stage scheduling problem to minimize the makespan of parallel stages for a DAG-style job as below,
-<div align=center><img width="200" height="150" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
+<div align=center><img width="200" height="200" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
 
