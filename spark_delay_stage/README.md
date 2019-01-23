@@ -17,14 +17,14 @@ We build an analytical model to formulate the makespan of parallel stages in a D
 <div align=center><img width="550" height="150" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/stagesPartition.png"/></div>
 
 The task execution time on a worker node w can be formulated as
-<div align=center><img width="250" height=80" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq1.png"/></div>
+<div align=center><img width="300" height=80" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq1.png"/></div>
 
 We are able to formulate the stage execution time as
-<div align=center><img width="150" height="30" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq2.png"/></div>
+<div align=center><img width="150" height="40" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq2.png"/></div>
 
 Furthermore, we formulate the execution time as the sum of the execution time of stages along an execution path m, which is given by
 <div align=center><img width="150" height="50" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq3.png"/></div>
 
 where xsub<k> denotes the delayed scheduling (i.e., submission) time for a stage k, as opposed to the immediate submission with the stock stage scheduling in Spark. We proceed to define our stage scheduling problem to minimize the makespan of parallel stages for a DAG-style job as below,
-<div align=center><img width="400" height="200" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
+<div align=center><img width="300" height="200" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
 
