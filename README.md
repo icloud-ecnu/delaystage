@@ -3,7 +3,7 @@
 DelayStage is a simple yet effective stage delay scheduling strategy to interleave the cluster resources across the parallel stages, so as to increase the cluster resource utilization and speed up the job performance.
 
 
-## Over of DelayStage
+## Overview of DelayStage
 
 Based on analytical performance model and problem analysis in the previous section, we proceed to design DelayStage. With the adjusted scheduling time (i.e., X) of parallel stages, DelayStage is able to increase the cluster resource utilization and reduce the job completion time. In addition, we unveil the implementation details of DelayStage scheduler on Apache Spark.
 
