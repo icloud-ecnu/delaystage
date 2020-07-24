@@ -28,3 +28,5 @@ Furthermore, we formulate the execution time as the sum of the execution time of
 where xsub<k> denotes the delayed scheduling (i.e., submission) time for a stage k, as opposed to the immediate submission with the stock stage scheduling in Spark. We proceed to define our stage scheduling problem to minimize the makespan of parallel stages for a DAG-style job as below,
 <div align=center><img width="380" height="130" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
 
+# Publication
+Wujie Shao, Fei Xu*, Li Chen, Haoyue Zheng, Fangming Liu, “Stage Delay Scheduling: Speeding up DAG-style Data Analytics Jobs with Resource Interleaving,” in: Proc. of ICPP 2019, Kyoto, Japan, August 5-8, 2019. Article No. 8.
