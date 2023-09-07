@@ -29,4 +29,14 @@ where xsub<k> denotes the delayed scheduling (i.e., submission) time for a stage
 <div align=center><img width="380" height="130" src="https://github.com/icloud-ecnu/delaystage/blob/master/images/eq4.png"/></div>
 
 # Publication
-Wujie Shao, Fei Xu*, Li Chen, Haoyue Zheng, Fangming Liu, “Stage Delay Scheduling: Speeding up DAG-style Data Analytics Jobs with Resource Interleaving,” in: Proc. of ICPP 2019, Kyoto, Japan, August 5-8, 2019. Article No. 8.
+Wujie Shao, Fei Xu*, Li Chen, Haoyue Zheng, Fangming Liu, “[Stage Delay Scheduling: Speeding up DAG-style Data Analytics Jobs with Resource Interleaving](https://dl.acm.org/doi/10.1145/3337821.3337872),” in: Proc. of ICPP 2019, Kyoto, Japan, August 5-8, 2019. Article No. 8.
+
+```
+@inproceedings{shao2019stage,
+  title={Stage delay scheduling: Speeding up dag-style data analytics jobs with resource interleaving},
+  author={Shao, Wujie and Xu, Fei and Chen, Li and Zheng, Haoyue and Liu, Fangming},
+  booktitle={Proceedings of the 48th international conference on parallel processing},
+  pages={1--11},
+  year={2019}
+}
+```
